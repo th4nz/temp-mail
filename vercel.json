@@ -1,22 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "rewrites": [
     {
-      "source": "/api/inboxes",
-      "destination": "/api/inboxes.js"
-    },
-    {
-      "source": "/api/emails",
-      "destination": "/api/emails.js"
-    },
-    {
-      "source": "/api/email",
-      "destination": "/api/email.js"
+      "source": "/api/mailboxes",
+      "destination": "/api/mailboxes.js"
     },
     {
       "source": "/",
